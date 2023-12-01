@@ -10,6 +10,13 @@
   - [PowerShell](#powershell)
   - [Gpupdate](#gpupdate)
   - [Gpresult](#gpresult)
+  - [Ipconfig](#ipconfig)
+  - [Ping](#ping)
+  - [Tracert](#tracert)
+  - [Netstat](#netstat)
+  - [Tasklist](#tasklist)
+  - [Taskkill](#taskkill)
+  - [Additional Commands](#additional-commands)
 - [Conclusion](#conclusion)
 
 ## Project Description
@@ -93,5 +100,90 @@ Gpresult displays Group Policy settings and Resultant Set of Policy (RSoP) for a
 #### Usage Scenarios
 Useful for diagnosing and troubleshooting Group Policy application issues on both user and computer accounts.
 
+### Ipconfig
+#### What is ipconfig?
+Ipconfig is a utility that displays current TCP/IP network configuration values and refreshes DHCP and DNS settings.
+
+#### Key Features
+- View IP address, subnet mask, and default gateway
+- Renew IP address
+- Flush and reset DNS resolver cache
+
+#### Usage Scenarios
+Essential for troubleshooting network connectivity issues and quickly viewing network interface configurations.
+
+### Ping
+#### What is ping?
+Ping is a diagnostic tool that tests connectivity between your computer and a specified host or IP address.
+
+#### Key Features
+- Checks network connectivity
+- Measures the round-trip time for messages sent to a host
+- Identifies network latency and loss
+
+#### Usage Scenarios
+Commonly used to diagnose the health of a network connection and to ensure a host is reachable.
+
+### Tracert
+#### What is tracert?
+Tracert (Trace Route) is a command-line utility used to determine the path taken by packets across an IP network.
+
+#### Key Features
+- Displays the path and measures transit delays of packets
+- Identifies the route taken to reach a particular destination
+
+#### Usage Scenarios
+Useful for network troubleshooting and identifying where delays or problems are occurring in network traffic.
+
+### Netstat
+#### What is netstat?
+Netstat displays active network connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, and more.
+
+#### Key Features
+- Displays network connections
+- Viewing listening ports
+- Statistics for TCP/IP protocols
+
+#### Usage Scenarios
+Valuable for network administration and security auditing.
+
+### Tasklist
+#### What is tasklist?
+Tasklist displays a list of currently running processes on a local or a remote machine.
+
+#### Key Features
+- List all running processes
+- Show memory usage of processes
+
+#### Usage Scenarios
+Helpful for monitoring system activity and diagnosing problematic applications.
+
+### Taskkill
+#### What is taskkill?
+Taskkill is a command used to terminate tasks by process ID or image name.
+
+#### Key Features
+- Forcefully terminate running processes
+- Can target specific processes
+
+#### Usage Scenarios
+Useful for stopping non-responsive or unwanted applications and processes.
+
+### Additional Commands
+- **shutdown**: Shuts down or restarts the computer.
+- **logoff**: Logs off the current user session.
+- **dir**: Lists the contents of the current directory.
+- **cd**: Changes the current directory.
+- **copy**: Copies files or directories.
+- **move**: Moves files or directories.
+- **rename**: Renames files or directories.
+- **del**: Deletes files or directories.
+- **mkdir**: Creates a new directory.
+- **rmdir**: Removes an empty directory.
+- **format**: Formats a disk.
+- **chkdsk**: Checks a disk for errors.
+- **sfc /scannow**: Scans and repairs protected system files.
+- **systeminfo**: Displays detailed configuration information about a computer and its operating system.
+
 ## Conclusion
-Understanding these command-line tools, ranging from basic tasks with Xcopy to more complex operations with Robocopy, Cmd, PowerShell, Gpupdate, and Gpresult, can significantly enhance your ability to perform various tasks and troubleshoot issues on Windows systems.
+Understanding these command-line tools, ranging from basic tasks with Xcopy to more complex operations with Robocopy, Cmd, PowerShell, Gpupdate, and Gpresult, can significantly enhance your ability to perform various tasks and troubleshoot issues on Windows systems. The inclusion of tools like ipconfig, ping, tracert, netstat, tasklist, and taskkill further extends this capability, covering a broad spectrum of system administration and troubleshooting tasks.
