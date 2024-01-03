@@ -83,5 +83,5 @@ mv oldname newname
 In Windows CMD, type displays the content of a file.
 
 ```cmd
-type filename.txt
+type your_file_name.txt
 ```
